@@ -54,7 +54,7 @@ contract SupplyChain is ConsumerRole, DistributorRole, FarmerRole, RetailerRole 
     string  productNotes; // Product Notes
     uint    productPrice; // Product Price
     State   itemState;  // Product State as represented in the enum above
-    address distributorID;  // Metamask-Ethereum address of the Distributor
+    address payable distributorID;  // Metamask-Ethereum address of the Distributor
     address retailerID; // Metamask-Ethereum address of the Retailer
     address payable consumerID; // Metamask-Ethereum address of the Consumer
   }
@@ -97,13 +97,13 @@ contract SupplyChain is ConsumerRole, DistributorRole, FarmerRole, RetailerRole 
 
   // Define a modifier that checks if an item.state of a upc is Harvested
   modifier harvested(uint _upc) {
-    require(items[_upc].itemState == State.Harvested);
+    require(items[_upc].itemState == State.Harvested, "The item is not yet harvested");
     _;
   }
 
   // Define a modifier that checks if an item.state of a upc is Processed
   modifier processed(uint _upc) {
-    require(items[_upc].itemState == State.Processed);
+    require(items[_upc].itemState == State.Processed, "The item is not yet processed");
     _;
   }
   
@@ -189,7 +189,7 @@ contract SupplyChain is ConsumerRole, DistributorRole, FarmerRole, RetailerRole 
   }
 
   // Define a function 'processtItem' that allows a farmer to mark an item 'Processed'
-  function processItem(uint _upc) public onlyFarmer harvested(_upc) verifyCaller(msg.sender)
+  function processItem(uint _upc) public onlyFarmer harvested(_upc) 
   {
     // Update the appropriate fields
     items[_upc].itemState = State.Processed;
@@ -244,7 +244,7 @@ contract SupplyChain is ConsumerRole, DistributorRole, FarmerRole, RetailerRole 
     items[_upc].distributorID = msg.sender;
 
     // Transfer money to farmer
-    items[_upc].originFarmerID.transfer(msg.value);
+    items[_upc].originFarmerID.transfer(items[_upc].productPrice);
     // emit the appropriate event
     emit Sold(_upc);
   }
