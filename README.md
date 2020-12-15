@@ -1,7 +1,7 @@
 # Project-6-Udacity-Supply-Chain
 
 
-# Smart Contract
+## Smart Contract
 
 
 SupplyChain tx hash: 0xbbadf89a1e3081834b1b71cf35b9fa69fefd3046fb8018a619be40471a4456fe
@@ -118,4 +118,5 @@ SupplyChain contract address: 0x7b5a9809e1F1BD9c2711208704cfB3D3f863E987
 Summary
 =======
 > Total deployments:   6
-> Final cost:          0.03925744 ETH ```
+> Final cost:          0.03925744 ETH 
+```
