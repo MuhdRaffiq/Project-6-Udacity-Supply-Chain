@@ -4,8 +4,14 @@ a decentralized app that tracks coffee beans supply chain or logistics with part
 
 ## UML Diagram
 
-![GitHub Logo](/UML Diagram/Activity Diagram.PNG)
 Format: ![Alt Text](https://github.com/MuhdRaffiq/Project-6-Udacity-Supply-Chain/blob/master/UML%20Diagram/Activity%20Diagram.PNG)
+
+Format: ![Alt Text](https://github.com/MuhdRaffiq/Project-6-Udacity-Supply-Chain/blob/master/UML%20Diagram/Sequence%20Diagram.PNG)
+
+Format: ![Alt Text](https://github.com/MuhdRaffiq/Project-6-Udacity-Supply-Chain/blob/master/UML%20Diagram/State%20Diagram.PNG)
+
+Format: ![Alt Text](https://github.com/MuhdRaffiq/Project-6-Udacity-Supply-Chain/blob/master/UML%20Diagram/Data%20Modeling%20Diagram.PNG)
+
 
 ## Smart Contract
 
