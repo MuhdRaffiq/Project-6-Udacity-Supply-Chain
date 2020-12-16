@@ -292,7 +292,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1511,
+                          "referencedDeclaration": 1522,
                           "src": "658:3:2",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -398,7 +398,7 @@
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 1511,
+                              "referencedDeclaration": 1522,
                               "src": "819:3:2",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
@@ -464,10 +464,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1514,
-                        1515
+                        1525,
+                        1526
                       ],
-                      "referencedDeclaration": 1514,
+                      "referencedDeclaration": 1525,
                       "src": "797:7:2",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -824,7 +824,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1511,
+                          "referencedDeclaration": 1522,
                           "src": "1328:3:2",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -1492,7 +1492,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1511,
+                          "referencedDeclaration": 1522,
                           "src": "658:3:2",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -1598,7 +1598,7 @@
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 1511,
+                              "referencedDeclaration": 1522,
                               "src": "819:3:2",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
@@ -1664,10 +1664,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1514,
-                        1515
+                        1525,
+                        1526
                       ],
-                      "referencedDeclaration": 1514,
+                      "referencedDeclaration": 1525,
                       "src": "797:7:2",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -2024,7 +2024,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1511,
+                          "referencedDeclaration": 1522,
                           "src": "1328:3:2",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -2491,6 +2491,39 @@
     "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
   },
   "networks": {
+    "4": {
+      "events": {
+        "0xddbf200aa634dc3fb81cfd68583dd1040d1c751d335e1d86b631bde3e977fea8": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "account",
+              "type": "address"
+            }
+          ],
+          "name": "DistributorAdded",
+          "type": "event"
+        },
+        "0x126174f6cf49c81cdb4a9214c6b8f037bef55b4ec31e4fc776cea2a1c8a88d59": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "account",
+              "type": "address"
+            }
+          ],
+          "name": "DistributorRemoved",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0x589965cf64DB8e3a2D0DBA1c9123Bec5716ce211",
+      "transactionHash": "0x2dbcdb15d2e7ea944731ab652e97b8c63337309e3f642e51d8e4f2abfe61624b"
+    },
     "1607084195872": {
       "events": {},
       "links": {},
@@ -2694,10 +2727,110 @@
       "links": {},
       "address": "0xd22De155853B67cE1cA3693FBE52EE958f755E7b",
       "transactionHash": "0x0efbb7611e958d2dbc2803209d30f26df1c321419fb489f6c17f1a6ac025039c"
+    },
+    "1608017410762": {
+      "events": {
+        "0xddbf200aa634dc3fb81cfd68583dd1040d1c751d335e1d86b631bde3e977fea8": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "account",
+              "type": "address"
+            }
+          ],
+          "name": "DistributorAdded",
+          "type": "event"
+        },
+        "0x126174f6cf49c81cdb4a9214c6b8f037bef55b4ec31e4fc776cea2a1c8a88d59": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "account",
+              "type": "address"
+            }
+          ],
+          "name": "DistributorRemoved",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0xd22De155853B67cE1cA3693FBE52EE958f755E7b",
+      "transactionHash": "0x0efbb7611e958d2dbc2803209d30f26df1c321419fb489f6c17f1a6ac025039c"
+    },
+    "1608018359702": {
+      "events": {
+        "0xddbf200aa634dc3fb81cfd68583dd1040d1c751d335e1d86b631bde3e977fea8": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "account",
+              "type": "address"
+            }
+          ],
+          "name": "DistributorAdded",
+          "type": "event"
+        },
+        "0x126174f6cf49c81cdb4a9214c6b8f037bef55b4ec31e4fc776cea2a1c8a88d59": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "account",
+              "type": "address"
+            }
+          ],
+          "name": "DistributorRemoved",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0xd22De155853B67cE1cA3693FBE52EE958f755E7b",
+      "transactionHash": "0x0efbb7611e958d2dbc2803209d30f26df1c321419fb489f6c17f1a6ac025039c"
+    },
+    "1608019557316": {
+      "events": {
+        "0xddbf200aa634dc3fb81cfd68583dd1040d1c751d335e1d86b631bde3e977fea8": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "account",
+              "type": "address"
+            }
+          ],
+          "name": "DistributorAdded",
+          "type": "event"
+        },
+        "0x126174f6cf49c81cdb4a9214c6b8f037bef55b4ec31e4fc776cea2a1c8a88d59": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "account",
+              "type": "address"
+            }
+          ],
+          "name": "DistributorRemoved",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0xd22De155853B67cE1cA3693FBE52EE958f755E7b",
+      "transactionHash": "0x0efbb7611e958d2dbc2803209d30f26df1c321419fb489f6c17f1a6ac025039c"
     }
   },
   "schemaVersion": "3.3.2",
-  "updatedAt": "2020-12-14T16:32:36.343Z",
+  "updatedAt": "2020-12-15T11:44:25.361Z",
+  "networkType": "ethereum",
   "devdoc": {
     "methods": {}
   },

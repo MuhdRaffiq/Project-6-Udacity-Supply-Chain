@@ -292,7 +292,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1511,
+                          "referencedDeclaration": 1522,
                           "src": "630:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -398,7 +398,7 @@
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 1511,
+                              "referencedDeclaration": 1522,
                               "src": "785:3:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
@@ -464,10 +464,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1514,
-                        1515
+                        1525,
+                        1526
                       ],
-                      "referencedDeclaration": 1514,
+                      "referencedDeclaration": 1525,
                       "src": "766:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -824,7 +824,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1511,
+                          "referencedDeclaration": 1522,
                           "src": "1266:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -1492,7 +1492,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1511,
+                          "referencedDeclaration": 1522,
                           "src": "630:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -1598,7 +1598,7 @@
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 1511,
+                              "referencedDeclaration": 1522,
                               "src": "785:3:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
@@ -1664,10 +1664,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1514,
-                        1515
+                        1525,
+                        1526
                       ],
-                      "referencedDeclaration": 1514,
+                      "referencedDeclaration": 1525,
                       "src": "766:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -2024,7 +2024,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1511,
+                          "referencedDeclaration": 1522,
                           "src": "1266:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -2491,6 +2491,39 @@
     "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
   },
   "networks": {
+    "4": {
+      "events": {
+        "0x28b26e7a3d20aedbc5f8f2ebf7da671c0491723a2b78f47a097b0e46dee07142": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "account",
+              "type": "address"
+            }
+          ],
+          "name": "ConsumerAdded",
+          "type": "event"
+        },
+        "0xe3f5ed5f263f1f01764a96edfc7d025f511ec5f7d180e8816908b78bcf74f098": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "account",
+              "type": "address"
+            }
+          ],
+          "name": "ConsumerRemoved",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0x76217B71b7B077094cD77b816C97bEBC25C884fF",
+      "transactionHash": "0x1fc9b303a260b0884b6fda9c44c486da6627a5fd0347b7f408db10cb09ae9773"
+    },
     "1607084195872": {
       "events": {},
       "links": {},
@@ -2694,10 +2727,110 @@
       "links": {},
       "address": "0xA65B87754E0A73860AA6B7eb6E95D79CD2d893d2",
       "transactionHash": "0xc40129d88f0dcefa584299f5745fde5c4acf001459f64fa66c650588853abe76"
+    },
+    "1608017410762": {
+      "events": {
+        "0x28b26e7a3d20aedbc5f8f2ebf7da671c0491723a2b78f47a097b0e46dee07142": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "account",
+              "type": "address"
+            }
+          ],
+          "name": "ConsumerAdded",
+          "type": "event"
+        },
+        "0xe3f5ed5f263f1f01764a96edfc7d025f511ec5f7d180e8816908b78bcf74f098": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "account",
+              "type": "address"
+            }
+          ],
+          "name": "ConsumerRemoved",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0xA65B87754E0A73860AA6B7eb6E95D79CD2d893d2",
+      "transactionHash": "0xc40129d88f0dcefa584299f5745fde5c4acf001459f64fa66c650588853abe76"
+    },
+    "1608018359702": {
+      "events": {
+        "0x28b26e7a3d20aedbc5f8f2ebf7da671c0491723a2b78f47a097b0e46dee07142": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "account",
+              "type": "address"
+            }
+          ],
+          "name": "ConsumerAdded",
+          "type": "event"
+        },
+        "0xe3f5ed5f263f1f01764a96edfc7d025f511ec5f7d180e8816908b78bcf74f098": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "account",
+              "type": "address"
+            }
+          ],
+          "name": "ConsumerRemoved",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0xA65B87754E0A73860AA6B7eb6E95D79CD2d893d2",
+      "transactionHash": "0xc40129d88f0dcefa584299f5745fde5c4acf001459f64fa66c650588853abe76"
+    },
+    "1608019557316": {
+      "events": {
+        "0x28b26e7a3d20aedbc5f8f2ebf7da671c0491723a2b78f47a097b0e46dee07142": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "account",
+              "type": "address"
+            }
+          ],
+          "name": "ConsumerAdded",
+          "type": "event"
+        },
+        "0xe3f5ed5f263f1f01764a96edfc7d025f511ec5f7d180e8816908b78bcf74f098": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "account",
+              "type": "address"
+            }
+          ],
+          "name": "ConsumerRemoved",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0xA65B87754E0A73860AA6B7eb6E95D79CD2d893d2",
+      "transactionHash": "0xc40129d88f0dcefa584299f5745fde5c4acf001459f64fa66c650588853abe76"
     }
   },
   "schemaVersion": "3.3.2",
-  "updatedAt": "2020-12-14T16:32:36.340Z",
+  "updatedAt": "2020-12-15T11:44:25.372Z",
+  "networkType": "ethereum",
   "devdoc": {
     "methods": {}
   },

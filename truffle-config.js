@@ -1,3 +1,8 @@
+const HDWalletProvider = require('truffle-hdwallet-provider');
+const infuraKey = "<insert infura keys>";
+const mnemonic = "<INPUT SEEDS KEYPHRASES>";
+
+
 module.exports = {
   networks: {
     development: {
@@ -5,10 +10,11 @@ module.exports = {
       port: 8545,
       network_id: "*" // Match any network id
     }, 
-    /*mynetwork: {
-      host: "localhost",
-      port: 8545,
-      network_id: "*" // match any network
-    }, */
+    rinkeby: {
+      provider: () => new HDWalletProvider(mnemonic, `https://rinkeby.infura.io/v3/${infuraKey}`),
+      network_id: 4,
+      gas: 4500000,
+      gasPrice: 10000000000
+    },
   }
 };
