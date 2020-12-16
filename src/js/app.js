@@ -165,6 +165,7 @@ App = {
 
     harvestItem: function(event) {
         event.preventDefault();
+        App.readForm();
         var processId = parseInt($(event.target).data('id'));
 
         App.contracts.SupplyChain.deployed().then(function(instance) {
@@ -187,6 +188,7 @@ App = {
 
     processItem: function (event) {
         event.preventDefault();
+        App.readForm();
         var processId = parseInt($(event.target).data('id'));
 
         App.contracts.SupplyChain.deployed().then(function(instance) {
@@ -201,6 +203,7 @@ App = {
     
     packItem: function (event) {
         event.preventDefault();
+        App.readForm();
         var processId = parseInt($(event.target).data('id'));
 
         App.contracts.SupplyChain.deployed().then(function(instance) {
@@ -215,6 +218,7 @@ App = {
 
     sellItem: function (event) {
         event.preventDefault();
+        App.readForm();
         var processId = parseInt($(event.target).data('id'));
 
         App.contracts.SupplyChain.deployed().then(function(instance) {
@@ -231,6 +235,7 @@ App = {
 
     buyItem: function (event) {
         event.preventDefault();
+        App.readForm();
         var processId = parseInt($(event.target).data('id'));
 
         App.contracts.SupplyChain.deployed().then(function(instance) {
@@ -246,6 +251,7 @@ App = {
 
     shipItem: function (event) {
         event.preventDefault();
+        App.readForm();
         var processId = parseInt($(event.target).data('id'));
 
         App.contracts.SupplyChain.deployed().then(function(instance) {
@@ -260,6 +266,7 @@ App = {
 
     receiveItem: function (event) {
         event.preventDefault();
+        App.readForm();
         var processId = parseInt($(event.target).data('id'));
 
         App.contracts.SupplyChain.deployed().then(function(instance) {
@@ -274,6 +281,7 @@ App = {
 
     purchaseItem: function (event) {
         event.preventDefault();
+        App.readForm();
         var processId = parseInt($(event.target).data('id'));
 
         App.contracts.SupplyChain.deployed().then(function(instance) {
@@ -287,8 +295,8 @@ App = {
     },
 
     fetchItemBufferOne: function () {
-    ///   event.preventDefault();
-    ///    var processId = parseInt($(event.target).data('id'));
+       ///event.preventDefault();
+        ///var processId = parseInt($(event.target).data('id'));
         App.upc = $('#upc').val();
         console.log('upc',App.upc);
 
@@ -303,8 +311,10 @@ App = {
     },
 
     fetchItemBufferTwo: function () {
-    ///    event.preventDefault();
-    ///    var processId = parseInt($(event.target).data('id'));
+        ///event.preventDefault();
+        ///var processId = parseInt($(event.target).data('id'));
+        App.upc = $('#upc').val();
+        console.log('upc',App.upc);
                         
         App.contracts.SupplyChain.deployed().then(function(instance) {
           return instance.fetchItemBufferTwo.call(App.upc);
