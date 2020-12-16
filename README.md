@@ -2,6 +2,11 @@
 
 a decentralized app that tracks coffee beans supply chain or logistics with parties from the farmers, distributors, retailers, and consumers. The parties will act as the actors to record the item throughout its journey
 
+## UML Diagram
+
+![GitHub Logo](/UML Diagram/Activity Diagram.PNG)
+Format: ![Alt Text](url)
+
 ## Smart Contract
 
 SupplyChain tx hash: 0xbbadf89a1e3081834b1b71cf35b9fa69fefd3046fb8018a619be40471a4456fe
