@@ -1,5 +1,6 @@
 # Project-6-Udacity-Supply-Chain
 
+a decentralized app that tracks coffee beans supply chain or logistics with parties from the farmers, distributors, retailers, and consumers. The parties will act as the actors to record the item throughout its journey
 
 ## Smart Contract
 
