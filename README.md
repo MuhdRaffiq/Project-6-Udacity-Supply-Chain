@@ -14,8 +14,7 @@ a decentralized app that tracks coffee beans supply chain or logistics with part
 
 ## IPFS Hosting
 
-link to IPFS website: https://gateway.ipfs.io/ipfs/QmRPpwWE6ewrJEkVyDNSU3rLjbpzaBhcTDXaxznXiwF7DL
-
+link to IPFS website: https://gateway.ipfs.io/ipfs/QmeTvjXYkuev1tMcXpdET1vURLAoFtjKmAex2T7Mbqr9V2/
 ## Smart Contract
 
 SupplyChain tx hash: 0x438bc41901fd5a48ef13a948173af27d3e77c7de5febaab7751e5d3a0ecceb7f
