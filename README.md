@@ -12,28 +12,34 @@ a decentralized app that tracks coffee beans supply chain or logistics with part
 
 ![Alt Text](https://github.com/MuhdRaffiq/Project-6-Udacity-Supply-Chain/blob/master/UML%20Diagram/Data%20Modeling%20Diagram.PNG)
 
+## IPFS Hosting
+
+link to IPFS website: https://gateway.ipfs.io/ipfs/QmRPpwWE6ewrJEkVyDNSU3rLjbpzaBhcTDXaxznXiwF7DL
 
 ## Smart Contract
 
-SupplyChain tx hash: 0xbbadf89a1e3081834b1b71cf35b9fa69fefd3046fb8018a619be40471a4456fe
+SupplyChain tx hash: 0x438bc41901fd5a48ef13a948173af27d3e77c7de5febaab7751e5d3a0ecceb7f
 
-SupplyChain contract address: 0x7b5a9809e1F1BD9c2711208704cfB3D3f863E987
+SupplyChain contract address: 0x62F0970DceEB0Ced92bFE6Fb1Ca4a8747FfE2DEF
 
-url address: https://rinkeby.etherscan.io/address/0x7b5a9809e1F1BD9c2711208704cfB3D3f863E987
+url address: https://rinkeby.etherscan.io/address/0x62f0970dceeb0ced92bfe6fb1ca4a8747ffe2def
 
 ```
+Starting migrations...
+======================
+> Network name:    'rinkeby'
+> Network id:      4
+> Block gas limit: 10000000 (0x989680)
+
+
 1_initial_migration.js
 ======================
-
-   Deploying 'Migrations'
-   ----------------------
-   > transaction hash:    0x7d725bce42c0826c8f7cdc5a1a497523434d402c2adfcb31fa0b7edf24d5e6ec
-   > Blocks: 1            Seconds: 10
-   > contract address:    0x736c868aeE35d90840c32ffEE6FC5830574fbe51
-   > block number:        7723774
-   > block timestamp:     1608032449
+   > Blocks: 1            Seconds: 18
+   > contract address:    0x1D15E8A5E6a3CfD8353b25cf3bc7102f415bdC7e
+   > block number:        7734763
+   > block timestamp:     1608197923866048334625e064ea8e6e81a26fd7cc5e2e4c43284c41ac37df3e47
    > account:             0x6D353B78Fc48BD98610cC0420C89A3502031eCF7
-   > balance:             13.696303469
+   > balance:             7.654411020000000002
    > gas used:            225237 (0x36fd5)
    > gas price:           10 gwei
    > value sent:          0 ETH
@@ -49,93 +55,107 @@ url address: https://rinkeby.etherscan.io/address/0x7b5a9809e1F1BD9c2711208704cf
 2_deploy_contracts.js
 =====================
 
-   Deploying 'FarmerRole'
+   Replacing 'FarmerRole'
    ----------------------
-   > transaction hash:    0x24c8b50d68b51436236580e02fa90654d1e5b22cc0d90ea392c579cd895def70
-   > Blocks: 1            Seconds: 22
-   > contract address:    0xa2bb57E67636EB6ddb4A5608A2fE9cDE2F746361
-   > block number:        7723777
-   > block timestamp:     1608032494
+   > transaction hash:    0xa4e65cce179a266f4d01720a48ee41bd55ba1ade8a0b2c997c4215c5a696d2d3
+   > Blocks: 1            Seconds: 9
+   > contract address:    0xDD8e25d7eb9d58dAB1E40Cb9f88a577E04745c87
+   > block number:        7734765
+   > block timestamp:     1608197953
    > account:             0x6D353B78Fc48BD98610cC0420C89A3502031eCF7
-   > balance:             13.692818999
+   > balance:             7.650926550000000002
    > gas used:            306084 (0x4aba4)
    > gas price:           10 gwei
    > value sent:          0 ETH
    > total cost:          0.00306084 ETH
 
 
-   Deploying 'DistributorRole'
+   Replacing 'DistributorRole'
    ---------------------------
-   > transaction hash:    0x2dbcdb15d2e7ea944731ab652e97b8c63337309e3f642e51d8e4f2abfe61624b
-   > Blocks: 1            Seconds: 15
-   > contract address:    0x589965cf64DB8e3a2D0DBA1c9123Bec5716ce211
-   > block number:        7723779
-   > block timestamp:     1608032524
+   > transaction hash:    0x7c1cd6af6207cdcaa7bca8c41dd92d59ab3f19fe370710d15eb5a223574e11b2
+   > Blocks: 1            Seconds: 9
+   > contract address:    0x27a5442053863F81296635D61BAdA41e73D83Ae0
+   > block number:        7734766
+   > block timestamp:     1608197968
    > account:             0x6D353B78Fc48BD98610cC0420C89A3502031eCF7
-   > balance:             13.689758399
+   > balance:             7.647865950000000002
    > gas used:            306060 (0x4ab8c)
    > gas price:           10 gwei
    > value sent:          0 ETH
    > total cost:          0.0030606 ETH
 
 
-   Deploying 'RetailerRole'
+   Replacing 'RetailerRole'
    ------------------------
-   > transaction hash:    0x1031eac34ad8b837df2fe5abaf30aa990924e7330b2bb2927872a07eb12e7601
-   > Blocks: 1            Seconds: 14
-   > contract address:    0x033d0E481f2AEF9833968C853aE228b701C5bA90
-   > block number:        7723781
-   > block timestamp:     1608032554
+   > transaction hash:    0x25596742a9997351fc2c3b37b767a9227474349fc0b408dd89aae8e31fd83d50
+   > Blocks: 2            Seconds: 21
+   > contract address:    0x6bda5cC7981790BC241EFa52516051B9AAafeB81
+   > block number:        7734768
+   > block timestamp:     1608197998
    > account:             0x6D353B78Fc48BD98610cC0420C89A3502031eCF7
-   > balance:             13.686697559
+   > balance:             7.644805110000000002
    > gas used:            306084 (0x4aba4)
    > gas price:           10 gwei
    > value sent:          0 ETH
    > total cost:          0.00306084 ETH
 
 
-   Deploying 'ConsumerRole'
+   Replacing 'ConsumerRole'
    ------------------------
-   > transaction hash:    0x1fc9b303a260b0884b6fda9c44c486da6627a5fd0347b7f408db10cb09ae9773
-   > Blocks: 1            Seconds: 15
-   > contract address:    0x76217B71b7B077094cD77b816C97bEBC25C884fF
-   > block number:        7723783
-   > block timestamp:     1608032584
+   > transaction hash:    0xab674aeeea0bf56349ed6f917acdc685b47e4fa1d5205769cba9a1f608daedc5
+   > Blocks: 2            Seconds: 21
+   > contract address:    0xE6262D657E65911bdDd574B5543Cb9bDB8984545
+   > block number:        7734770
+   > block timestamp:     1608198028
    > account:             0x6D353B78Fc48BD98610cC0420C89A3502031eCF7
-   > balance:             13.683636719
+   > balance:             7.641744270000000002
    > gas used:            306084 (0x4aba4)
    > gas price:           10 gwei
    > value sent:          0 ETH
    > total cost:          0.00306084 ETH
 
 
-   Deploying 'SupplyChain'
+   Replacing 'SupplyChain'
    -----------------------
-   > transaction hash:    0xbbadf89a1e3081834b1b71cf35b9fa69fefd3046fb8018a619be40471a4456fe
-   > Blocks: 1            Seconds: 14
-   > contract address:    0x7b5a9809e1F1BD9c2711208704cfB3D3f863E987
-   > block number:        7723786
-   > block timestamp:     1608032629
+   > transaction hash:    0x438bc41901fd5a48ef13a948173af27d3e77c7de5febaab7751e5d3a0ecceb7f
+   > Blocks: 1            Seconds: 5
+   > contract address:    0x62F0970DceEB0Ced92bFE6Fb1Ca4a8747FfE2DEF
+   > block number:        7734771
+   > block timestamp:     1608198043
    > account:             0x6D353B78Fc48BD98610cC0420C89A3502031eCF7
-   > balance:             13.658874769
-   > gas used:            2476195 (0x25c8a3)
+   > balance:             7.614668970000000002
+   > gas used:            2707530 (0x29504a)
    > gas price:           10 gwei
    > value sent:          0 ETH
-   > total cost:          0.02476195 ETH
+   > total cost:          0.0270753 ETH
 
 
    > Saving migration to chain.
    > Saving artifacts
    -------------------------------------
-   > Total cost:          0.03700507 ETH
+   > Total cost:          0.03931842 ETH
 
 
 Summary
 =======
 > Total deployments:   6
-> Final cost:          0.03925744 ETH 
+> Final cost:          0.04157079 ETH
 ```
 
 ## Libraries
 
 Roles - used for adding, removing, and check if the actors added is in the list for mapping for access control
+
+Truffle - for deploying smart contracts
+
+## Versions
+
+ipfs version 0.7.0
+
+Truffle v5.1.52 (core: 5.1.52)
+
+Solidity v0.5.16 (solc-js)
+
+Node v10.16.3
+
+Web3.js v1.2.9
