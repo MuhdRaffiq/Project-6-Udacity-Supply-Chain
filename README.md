@@ -12,6 +12,9 @@ a decentralized app that tracks coffee beans supply chain or logistics with part
 
 ![Alt Text](https://github.com/MuhdRaffiq/Project-6-Udacity-Supply-Chain/blob/master/UML%20Diagram/Data%20Modeling%20Diagram.PNG)
 
+## IPFS
+
+link to IPFS website: https://gateway.ipfs.io/ipfs/QmRPpwWE6ewrJEkVyDNSU3rLjbpzaBhcTDXaxznXiwF7DL
 
 ## Smart Contract
 
