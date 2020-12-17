@@ -12,7 +12,7 @@ a decentralized app that tracks coffee beans supply chain or logistics with part
 
 ![Alt Text](https://github.com/MuhdRaffiq/Project-6-Udacity-Supply-Chain/blob/master/UML%20Diagram/Data%20Modeling%20Diagram.PNG)
 
-## IPFS
+## IPFS Hosting
 
 link to IPFS website: https://gateway.ipfs.io/ipfs/QmRPpwWE6ewrJEkVyDNSU3rLjbpzaBhcTDXaxznXiwF7DL
 
@@ -142,3 +142,17 @@ Summary
 ## Libraries
 
 Roles - used for adding, removing, and check if the actors added is in the list for mapping for access control
+
+Truffle - for deploying smart contracts
+
+## Versions
+
+ipfs version 0.7.0
+
+Truffle v5.1.52 (core: 5.1.52)
+
+Solidity v0.5.16 (solc-js)
+
+Node v10.16.3
+
+Web3.js v1.2.9
